@@ -1,0 +1,12 @@
+.calendar-full {
+  display: inline-block
+
+}
+.calendar-month {
+  display: grid;
+  justify-items: center;
+  margin: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}

@@ -1,0 +1,21 @@
+.calendar-week {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+
+.calendar-day {
+    display:grid;
+    width: 100%;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(7,minmax(0,3fr));
+}
+
+
+.calendar-day ul {
+    list-style-type: none;
+    text-align: center;
+    margin-top: 1rem;
+    position: relative;
+}
